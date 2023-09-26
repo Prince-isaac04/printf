@@ -65,10 +65,10 @@ int put_handle(va_list set)
 }
 
 /**
- * ir_handle - Handle an integer argument.
- * @set: A va_list representing the variable arguments list.
+ * ir_handle - Handle an integer argume
+ * @set: A va_list representing the variabls list.
  * @val: The integer argument retrieved from va_list.
- * @cot: The count of digits in the integer.
+ * @cot: The count of digits in teger.
  * Return: The count of digits in the integer.
  */
 int ir_handle(va_list set)
