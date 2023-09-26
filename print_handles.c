@@ -63,3 +63,18 @@ int put_handle(va_list set)
 
 	return (i);
 }
+
+/**
+ * ir_handle - Handle an integer argument.
+ * @set: A va_list representing the variable arguments list.
+ * @val: The integer argument retrieved from va_list.
+ * @cot: The count of digits in the integer.
+ * Return: The count of digits in the integer.
+ */
+int ir_handle(va_list set)
+{
+    int cot;
+    int val = va_arg(set, int);
+    cot = cat_number(val, 0);
+    return cot;
+}

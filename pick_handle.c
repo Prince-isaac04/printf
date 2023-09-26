@@ -21,5 +21,9 @@ int (*pick(char str))(va_list set)
 	{
 		return (&put_handle);
 	}
+	else if (str == 'i')
+	{
+		return (&ir_handle);
+	}
 	return (NULL);
 }

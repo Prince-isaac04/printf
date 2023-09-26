@@ -14,6 +14,7 @@ int dr_handler(va_list set);
 int put_handle(va_list set);
 int _printf(const char *format, ...);
 int (*pick(char str))(va_list set);
+int ir_handle(va_list set);
 
 
 

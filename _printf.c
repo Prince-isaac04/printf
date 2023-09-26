@@ -34,7 +34,7 @@ int _printf(const char *format, ...)
 		if (format[i] == '%')
 		{
 			i++;
-			if (format[i] == 'c' || format[i] == 'd' || format[i] == 's')
+			if (format[i] == 'c' || format[i] == 'd' || format[i] == 's' || format[i] == 'i')
 			{
 				ncount += pick(format[i])(set);
 			}
