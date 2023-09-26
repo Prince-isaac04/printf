@@ -73,8 +73,8 @@ int put_handle(va_list set)
  */
 int ir_handle(va_list set)
 {
-    int cot;
-    int val = va_arg(set, int);
-    cot = cat_number(val, 0);
-    return cot;
+	int cot;
+	int val = va_arg(set, int);
+	cot = cat_number(val, 0);
+	return cot;
 }
